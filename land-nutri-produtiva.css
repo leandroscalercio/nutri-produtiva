@@ -127,8 +127,11 @@ a:visited {
   transform: scale(1);
   animation: pulse-black 2s infinite;
 }
+.nutri-time {
+  max-width: 60px;
+}
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 768px) {
   h1 {
     padding: 10px;
     width: 100%;
